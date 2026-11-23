@@ -1,0 +1,63 @@
+* {
+    border: none;
+    border-radius: 0;
+    font-family: "JetBrains Mono", "Terminus", "Iosevka", monospace;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: bold;
+    min-height: 0;
+}
+
+window#waybar {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+#workspaces {
+    margin: 0;
+    padding: 0;
+}
+
+#workspaces button {
+    padding: 0 7px;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+#workspaces button:hover {
+    background-color: #1a1a1a;
+    box-shadow: inherit;
+    text-shadow: inherit;
+}
+
+/* Inverted block for the active workspace */
+#workspaces button.active,
+#workspaces button.focused {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/* Optional subtle indicator for urgent windows */
+#workspaces button.urgent {
+    background-color: #ffffff;
+    color: #000000;
+    text-decoration: underline;
+}
+
+#custom-layout {
+    padding: 0 8px;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+#window {
+    padding: 0 6px;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+#clock {
+    padding: 0 8px;
+    background-color: #000000;
+    color: #ffffff;
+}
